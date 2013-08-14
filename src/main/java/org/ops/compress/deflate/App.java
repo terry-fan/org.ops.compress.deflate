@@ -31,8 +31,7 @@ public class App
             } catch (Exception e) {
                 System.out.println(e);
                 e.printStackTrace();
-            e
-
+            } 
         }
     }
 
@@ -65,7 +64,7 @@ public class App
         }
         catch (Exception e)
         {
-            throw new Exception("Unable to Base64 decode and inflate SAML message", e);
+            throw new Exception("Unable to inflate SAML message", e);
         }
     } 
 }
